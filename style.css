@@ -1,2 +1,10 @@
+.one{
+    background-color: lightblue;
+    margin-right: 1760px;
+    padding: 50px;
+}
 
-
+.two{
+    display: flex;
+    justify-content: space-around;
+}
