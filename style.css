@@ -1,11 +1,25 @@
-.one{
-    background-color: lightblue;
-    margin-right: 1760px;
-    padding: 50px;
+.sidebar{
+    background-color: lightseagreen;
+    text-align: center;
+   
+    
 }
 
-.two{
-    display: flex;
-    justify-content: space-around;
+.down{
+    
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+
+.main{
+    background-color: grey;
+    text-align: center;
 }
 
