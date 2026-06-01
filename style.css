@@ -1,13 +1,11 @@
 .sidebar{
-    background-color: lightseagreen;
+    display: grid;
+    background-color: #3693d6;
     text-align: center;
    
     
 }
 
-.down{
-    
-}
 
 
 
@@ -19,6 +17,7 @@
 
 
 .main{
+    display: grid;
     background-color: grey;
     text-align: center;
 }
