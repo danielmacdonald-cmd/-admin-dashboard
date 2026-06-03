@@ -1,85 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<link rel="stylesheet" href="style.css">
-<meta charset="UTF-8">
-<title>admin dashboard</title>
-</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    </head>
     <body>
-    <div class="container"> 
-        <div class="sidebar">
-            	<p>dashboard</p>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="mdi mdi-view-dashboard"></i>
+            <h2>Dashboard</h2>
+        </div>
+
+        <nav class="nav">
+            <a href="#"><i class="mdi mdi-home"></i> Home</a>
+            <a href="#"><i class="mdi mdi-card-account-details"></i> Profile</a>
+            <a href="#"><i class="mdi mdi-message"></i> Messages</a>
+            <a href="#"><i class="mdi mdi-history"></i> History</a>
+            <a href="#"><i class="mdi mdi-file-document"></i> Tasks</a>
+            <a href="#"><i class="mdi mdi-account-group"></i> Communities</a>
+        </nav>
+
+        <nav class="settings">
+            <a href="#"><i class="mdi mdi-cog"></i> Settings</a>
+            <a href="#"><i class="mdi mdi-help-box"></i> Support</a>
+            <a href="#"><i class="mdi mdi-shield-check"></i> Privacy</a>
+        </nav>
+
+    </aside>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="search">
+            <i class="mdi mdi-magnify"></i>
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="top-user">
+            <i class="mdi mdi-bell-outline"></i>
+            <img src="https://via.placeholder.com/50" alt="">
+            <span>Morgan Oakley</span>
+        </div>
+
+        <div class="welcome">
+            <img src="https://via.placeholder.com/70" alt="">
             <div>
-                
-                <p>home</p>
-                <p>profile</p>
-                <p>messages</p>
-                <p>hitory</p>
-                <p>tasks</p>
-                <p>communities</p>
-            
+                <p>Hi there,</p>
+                <h2>Morgan Oakley (@morgan)</h2>
             </div>
-            <div class="down">
-                <p>settings</p>
-                <p>suport</p>
-                <p>privacy</p>
             </div>
-        </div>  
-        
-		
-	    <div class="main">
-		    <div class="header-one">
-			    <p>Hi there</p> 
-          	    <h3>morgan oakly(@morgan)</h3>
-		    </div>  
 
-            <div class="header-two">
-                <p>morgan oakly</p>
+        <div class="header-buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
 
-                <button>new</button> 
+    </header>
 
-                <button>upload</button>
+    <!-- Main Content -->
+    <main class="main-content">
 
-                <button>share</button>
+        <section class="projects">
 
-                 
-	        </div>
+            <h3>Your Projects</h3>
+            <div class="project-grid">
+                <div class="card">
+                    <h4>Super Cool Project</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="card-icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-source-fork"></i>
+                    </div>
+                </div>
+                  <div class="card">
+                    <h4>Less Cool Project</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="card-icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-source-fork"></i>
+                    </div>
+                </div>
+                 <div class="card">
+                    <h4>Impossible App</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="card-icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-source-fork"></i>
+                    </div>
+                </div>
+                 <div class="card">
+                    <h4>Easy Peasy App</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="card-icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-source-fork"></i>
+                    </div>
+                </div>
 
-        
-            <div class="area">
-                <p>super cool projects</p>
+                <div class="card">
+                    <h4>Ad Blocker</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                <p>less cool projects</p>
+                    <div class="card-icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-source-fork"></i>
+                    </div>
+                </div>
 
-                <p>impossible app</p>
+                <div class="card">
+                    <h4>Money Maker</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                <p>easy peasy app<p> 
-
-                <p>ad blocker</p>
-
-                <p>money maker</p>
+                    <div class="card-icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-source-fork"></i>
+                    </div>
+                </div>
 
             </div>
+        </section>
+
+        <aside class="right-sidebar">
+
             <div class="announcements">
-                <P>announcements</P>
-                <P>site maintenens</P>
-                <P>comunitie share day<P>
-                <P>updated privicy policy</P>
-            
+                  <h3>Announcements</h3>
+
+                <div class="announcement-card">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+                    <hr>
+
+                    <h4>Community Share Day</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+                    <hr>
+
+                    <h4>Updated Privacy Policy</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
             </div>
+                        <div class="trending">
+                <h3>Trending</h3>
 
-            <div class="trendiing">
-                <p>trending</p>
-            
-                <p>@tengan</p>
-            
-                <p>@morgan</p>
+                <div class="trending-card">
 
-                <p>@kendall</p>
+                    <div class="trend">
+                        <img src="https://via.placeholder.com/40" alt="">
+                        <div>
+                            <strong>@tegan</strong>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
 
-                <p>@alex</p>
+                    <div class="trend">
+                        <img src="https://via.placeholder.com/40" alt="">
+                        <div>
+                            <strong>@morgan</strong>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <img src="https://via.placeholder.com/40" alt="">
+                        <div>
+                            <strong>@kendall</strong>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                     <div class="trend">
+                        <img src="https://via.placeholder.com/40" alt="">
+                        <div>
+                            <strong>@alex</strong>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
+                     </div>
             </div>
- 	    </div>
-    </div> 
+            </aside>
+
+    </main>
+
+</div>
+
 </body>
 </html>
